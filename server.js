@@ -4,7 +4,7 @@ const twilio = require('twilio');
 const app = express();
 app.use(express.json());
 
-// ⚙️ Apni credentials yahan daalo
+
 const accountSid = process.env.TWILIO_SID;
 const authToken  = process.env.TWILIO_TOKEN;
 const fromNumber = process.env.TWILIO_PHONE;
